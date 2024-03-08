@@ -1,3 +1,88 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: "Roboto", "sans-serif";
+        }
+        
+        /* Font part */
+        /* .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        }
+
+        .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        }
+
+        .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        }
+
+        .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+        .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        }
+
+        .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+        }
+
+        .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        }
+
+        .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        }
+
+        .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        }
+
+        .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic; 
+        }*/
+        /* End of Font part */
+
+        
+        
         footer {
             text-align: center;
             background-color: rgb(50, 127, 204);
@@ -55,11 +140,8 @@
             background-color:rgb(50, 127, 204);
             font-weight: light;
             border-radius: 8px;
-            padding: 5px;
-            top: 0;
-            left: 0;
+            padding: 5px; 
             display: flex;
-            position: absolute;
             justify-content: center;
             align-items: center;
             animation: ani-html 5s infinite alternate -2s; 
@@ -72,10 +154,7 @@
             font-weight: light;
             border-radius: 8px;
             padding: 5px;
-            top: 0;
-            left: 0;
             display: flex;
-            position: absolute;
             justify-content: center;
             align-items: center;
             animation: ani-css 5s infinite alternate;
@@ -88,12 +167,9 @@
             font-weight: light;
             border-radius: 8px;
             padding: 5px;
-            top: 0;
-            left: 0;
             display: flex;
-            position: absolute;
             justify-content: center;
-            align-items: center;;
+            align-items: center;
             animation: ani-php 5s infinite alternate;
         }
 
@@ -104,10 +180,7 @@
             font-weight: light;
             border-radius: 8px;
             padding: 5px;
-            top: 0;
-            left: 0;
             display: flex;
-            position: absolute;
             justify-content: center;
             align-items: center;
             animation: ani-javaScript 5s infinite alternate 0.5s;
@@ -120,10 +193,7 @@
             font-weight: light;
             border-radius: 8px;
             padding: 5px;
-            top: 0;
-            left: 0;
             display: flex;
-            position: absolute;
             justify-content: center;
             align-items: center;
             animation: ani-thai 5s infinite alternate -0.5s;
@@ -135,11 +205,8 @@
             background-color:rgb(50, 127, 204);
             font-weight: light;
             border-radius: 8px;
-            padding: 5px;
-            top: 0;
-            left: 0;
+            padding: 5px;            
             display: flex;
-            position: absolute;
             justify-content: center;
             align-items: center;
             animation: ani-english 5s infinite alternate;
@@ -262,3 +329,46 @@
             }
         }
         /* End of Responsive part */
+
+        /* TODO Refactor Class CSS */
+
+        /* .fw-l {
+            font-weight: bold;
+        }
+
+        .fs-x-l {
+            font-size: x-large;
+        }
+
+        .mt-10 {
+            margin-top: 10px;
+        } */
+
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+
+        .mr-10{
+            margin-right: 10px;
+        }
+
+        .mr-5{
+            margin-right: 5px;
+        }
+
+        .clr-white {
+            color: white;
+        }
+        .gauge-style {
+            position: relative;
+            font-size: small;
+            font-weight: 700;
+            color: white
+        }
+
+        .htoppic-style {
+            font-weight: bold;
+            font-size: x-large;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
